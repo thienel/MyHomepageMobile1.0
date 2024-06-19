@@ -1,0 +1,40 @@
+header {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+h1 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    font-style: italic;
+}
